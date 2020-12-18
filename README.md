@@ -19,4 +19,4 @@ _[Hoang M. Le](https://www.linkedin.com/in/hminle/)_<sup>1</sup>, _[Mahmoud Afif
 
 ![result](./figures/CombinedResults.jpg)
 
-This software is provided for research purposes only and CAN NOT be used for commercial purposes.
+This software is provided for research purposes only and CANNOT be used for commercial purposes.
