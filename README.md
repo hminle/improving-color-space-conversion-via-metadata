@@ -6,7 +6,7 @@ _[Hoang M. Le](https://www.linkedin.com/in/hminle/)_<sup>1</sup>, _[Mahmoud Afif
 <sup>2</sup>Samsung AI Center (SAIC) - Toronto
 
 ### Overview
-[PDF](https://www.ingentaconnect.com/content/ist/cic/2020/00002020/00000028/art00031)
+Link to [PDF](https://www.ingentaconnect.com/content/ist/cic/2020/00002020/00000028/art00031)
 
 ![overview_figure](./figures/overview_figure.jpg)
 
