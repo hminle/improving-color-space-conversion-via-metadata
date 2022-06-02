@@ -4,9 +4,9 @@ close all;
 warning off;
 
 %% Read input
-in_dir = 'D:\Dataset\2021_gma_dataset\refined_dataset\test_srgb_512';
-target_dir = 'D:\Dataset\2021_gma_dataset\refined_dataset\test_prop_512_16b';
-out_dir = 'D:\Dataset\2021_gma_dataset\refined_dataset\matlab_prop_512_16b';
+in_dir = 'D:\Dataset\2021_gma_dataset\refined_dataset\srgb_full';
+target_dir = 'D:\Dataset\2021_gma_dataset\refined_dataset\prophoto_full_16b';
+out_dir = 'D:\Dataset\2021_gma_dataset\refined_dataset\cic2020_prophoto_full_16b';
 in_ext = '.png';
 target_ext = '.png';
 in_images = dir(fullfile(in_dir,['*' in_ext]));
@@ -14,6 +14,7 @@ in_images = fullfile(in_dir,{in_images(:).name});
 target_images = dir(fullfile(target_dir,['*' target_ext]));
 target_images = fullfile(target_dir,{target_images(:).name});
 
+tic;
 for i = 1 : length(in_images)
     fprintf('Processing (%d/%d) ... \n',i,length(in_images));
     [~,name,ext] = fileparts(in_images{i});
@@ -79,3 +80,4 @@ for i = 1 : length(in_images)
     end
 end
 
+timeElapsed = toc;

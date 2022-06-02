@@ -4,9 +4,9 @@ close all;
 warning off;
 
 %% Read input
-in_dir = 'D:\Dataset\2021_gma_dataset\dimensions_1920_1080\srgb_greater_than_10_percent_oog';
-target_dir = 'D:\Dataset\2021_gma_dataset\dimensions_1920_1080\greater_than_10_percent_oog';
-out_dir = 'D:\Dataset\2021_gma_dataset\dimensions_1920_1080\matlab_target_greater_than_10_percent_oog';
+in_dir = 'D:\Dataset\gamut_mapping_data\WideGamutDataset\test-srgb-8bpc';
+target_dir = 'D:\Dataset\gamut_mapping_data\WideGamutDataset\test-prop-8bpc';
+out_dir = 'D:\Dataset\gamut_mapping_data\WideGamutDataset\cic2020_local';
 in_ext = '.png';
 target_ext = '.png';
 in_images = dir(fullfile(in_dir,['*' in_ext]));
